@@ -1,0 +1,36 @@
+# Core Dependencies for Agentic AI Workshop
+# Using DIAL (EPAM AI Proxy) with Azure OpenAI
+
+# LangChain & LangGraph (v1.0+ - latest stable versions)
+# See migration guides:
+# - https://docs.langchain.com/oss/python/migrate/langchain-v1
+# - https://docs.langchain.com/oss/python/migrate/langgraph-v1
+langchain>=1.0.0
+langgraph>=1.0.0
+langchain-openai>=0.3.0
+langchain-core>=0.3.40
+langchain-community>=0.3.0
+
+# OpenAI (includes Azure OpenAI support)
+openai>=1.50.0
+
+# Environment & Configuration
+python-dotenv>=1.0.0
+
+# Vector stores & embeddings (for RAG modules)
+faiss-cpu>=1.8.0
+chromadb>=0.5.0
+
+# Jupyter support
+jupyter>=1.0.0
+jupyterlab>=4.0.0
+ipywidgets>=8.0.0
+
+# Utilities
+pydantic>=2.0.0
+httpx>=0.27.0
+tenacity>=8.2.0
+
+# Optional: LangSmith for tracing
+# langsmith>=0.1.0
+
